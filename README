@@ -1,0 +1,9 @@
+DokuMac is a Mac-style skin for DokuWiki, popular wiki engine.
+
+To install DokuMac skin download the archive and unpack it into 
+<dokuwiki-path>/lib/tpl/ directory. 
+
+To enable the skin open your <dokuwiki-path>/conf/dokuwiki.php 
+and change $conf['template'] variable to doku_mac value:
+$conf['template'] = 'doku_mac';
+
