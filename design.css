@@ -891,7 +891,8 @@ div.stylehead {
 
 div.stylefoot {
   background: transparent url(images/bg-content.png) repeat-y scroll center top;
-  padding: 10px 25px 5px; 
+  padding: 10px 25px 5px;
+  margin: -10px 0 0 0;
 }
 
 div.dokuwiki > div.license {
