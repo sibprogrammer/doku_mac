@@ -7,44 +7,42 @@
 
 /* -------------- top row --------------- */
 div.dokuwiki .header {
-  padding: 3px 0 0 2px;
+  padding: 28px 0 0 2px;
+  height: 10px;
 }
 
 div.dokuwiki .pagename {
   float: left;
-  font-size: 200%;
+  font-size: 100%;
   font-weight: bolder;
-  color: __background_alt__;
-  text-align: left;
+  color: __black__;
+  text-align: right;
   vertical-align: middle;
+  width: 50%;
 }
 
 div.dokuwiki .pagename a {
-  color: __extern__ !important;
+  color: __black__ !important;
   text-decoration: none !important;
 }
 
 div.dokuwiki .logo {
-  float: right;
-  font-size: 220%;
+  float: left;
+  font-size: 100%;
   font-weight: bolder;
-  text-align: right;
+  text-align: left;
   vertical-align: middle;
+  margin-left: 5px;
 }
 
 div.dokuwiki .logo a {
-  color: __background_alt__ !important;
+  color: __black__ !important;
   text-decoration: none !important;
-  font-variant: small-caps;
-  letter-spacing: 2pt;
 }
 
 /* ---------------  top and bottom bar ---------------- */
 div.dokuwiki .bar {
-  border-top: 1px solid __border__;
-  border-bottom: 1px solid __border__;
-  background: __background_alt__;
-  padding: 0.1em 0.15em;
+  padding: 3px 5px 10px 5px;
   clear: both;
 }
 
@@ -53,7 +51,7 @@ div.dokuwiki .bar-left {
 }
 
 div.dokuwiki .bar-right {
-  float: right;
+  float: left;
   text-align: right;
 }
 
